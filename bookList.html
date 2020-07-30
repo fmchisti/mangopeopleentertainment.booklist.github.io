@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book List Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>This Is My First BookMark Project</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               
+               <form id="mainForm" method="get" action="thankYou.html">
+                <input type="name" id="name" class="input-box" placeholder="Enter your name">
+                <small class="visable">Enter your valid name</small>
+                <input type="email"  id="email" class="input-box" placeholder="Enter your email">
+                <small class="visable1">Enter your valid email</small>
+                <input type="phone"  id="phone" class="input-box" placeholder="Enter your phone number">
+                <small class="visable2">Enter your valid phone</small>
+                <input type="submit" id="btnSubmit" class="submit" name="submit" value="Submit Your Book List">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="booktable">
+                   <h2 style="text-align:center; padding: 10px;">BookMark Listed List</h2>
+                    <table>
+                        <tbody id="book-list">
+                            <tr class="table-row">
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
